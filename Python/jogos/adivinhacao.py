@@ -40,7 +40,7 @@ def jogar():
         acertou = chute == numero_secreto
         maior = chute>numero_secreto
         menor = chute<numero_secreto
-        #------------------------------------------
+        #------------ ------------------------------
 
         if(acertou) :
             print("Ae arrombado do caralho, pega porra!!")
