@@ -1,0 +1,70 @@
+ LIST----------------------------------------
+   valores = []
+   valores = [0,1,2,3,4]
+   min(valores) -> 0
+   max(valores) -> 4
+   valores[2] -> 2
+   len(valores) -> 5 [ TAMANHO DA LISTA]
+   .append -> adiciona um elemento
+   *função.count(elemento) -> retorna quantas vezes o elemento aparece na lista
+   *função.index(elemento) -> retorna o indice do elemento na lista
+        usar um in
+   0 in valores -> True [Verifica de X esta em valores]
+   TUPLE-----------------------------------------
+   é uma lista fixa, declarada com (), permite duplicacao
+   dias = ("S","T"...)
+   ----PODE-SE ARMAZENAR TUPLAS EM LISTAS
+        instrutor1 = ("Rebeca","17")
+        instrutor2 = ("Carlos","90")
+        intrutores = [instrutor1, instrutor2]
+        print(intrutores)
+        print(intrutores[1][1])
+    ---CONVERTER LISTA EM TUPLAS
+        linhas = []
+        linhas.append("k1")
+        linhas.append("k1")
+        linhas.append("k1")
+        linhas_tuple = tuple(linhas)
+    ----CONVERTER TUPLAS EM LISTAS 
+        linhas_tuple = ("Reb")
+        linhas_list = list(linhas_tuple)
+    SET-------------------------------------
+    Set nao permite duplicacoes. Se declara com {}
+    nao possui um indice, nao ordenado.
+    para adicionar -> colecao.add(22222)
+
+
+COLOCAR UM IF DIRETO NO FOR
+
+sem o recurso de compressao:
+    inteiros = [1,3,4,5,7,8,9]
+        pares = []
+        for numero in inteiros:
+            if numero % 2 == 0:
+                pares.append(numero)
+
+usando o recuso de compressao:
+    inteiros = [1,2,3,4,5]
+    pares = [x for x in inteiros if x % 2 == 0]
+
+
+
+
+ARQUIVOS EM PYTHON
+
+sintaxe : open("nomeDoArquivo.txt", "(letra que determina acao)")
+a-> adiciona conteudo
+w-> escreve o conteudo
+r-> le o conteudo
+
+criar arquivo   -> arq = open("arquivo.txt","w")
+escrevendo nele -> arq.write("banana\n") 
+fechando arquiv -> arq.close()
+
+
+outra notação 
+
+
+with open("arquivo.txt") as arquivo:
+    for linha in arquivo:
+        print(linha)

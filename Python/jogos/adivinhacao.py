@@ -40,10 +40,10 @@ def jogar():
         acertou = chute == numero_secreto
         maior = chute>numero_secreto
         menor = chute<numero_secreto
-        #------------ ------------------------------
+        #------------------------------------------
 
         if(acertou) :
-            print("Parabéns!!")
+            print("Ae arrombado do caralho, pega porra!!")
             print(" Fez {} pontos".format(pontos))
             break
         else:

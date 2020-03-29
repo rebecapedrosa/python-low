@@ -1,0 +1,8 @@
+Dicionarios:
+
+alunos = {"Rebeca": 123, "Karen": 666}
+alunos["Rebeca"]
+
+
+
+from arquivo import funcao
