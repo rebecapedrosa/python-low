@@ -43,7 +43,7 @@ def jogar():
         #------------ ------------------------------
 
         if(acertou) :
-            print("Ae arrombado do caralho, pega porra!!")
+            print("Parabéns!!")
             print(" Fez {} pontos".format(pontos))
             break
         else:
